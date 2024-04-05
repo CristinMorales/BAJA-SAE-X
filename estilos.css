@@ -1,0 +1,115 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+body{
+    margin: 2px;
+    background-color: rgba(232, 239, 239, 0.998);
+    color: rgb(0, 0, 0);
+    font-family:'Dosis', sans-serif;
+    
+}
+a{
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    color: rgb(1, 94, 1);
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Courier New', Courier;
+    justify-content: center;
+    display: flex;
+    color: #01810a;
+
+}
+ h3{
+    font-size: 30px;
+    font-family: 'Courier New', Courier;
+    justify-content: center;
+    display: flex;
+ }
+#lista1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:30px;
+}
+#lista1 li{
+    display: inline;
+    justify-content:flex-end ;
+    padding: 150px;
+}
+#lista2 {
+font-family: 'Courier New', Courier, monospace;
+font-size: 30px;
+display:inline;
+justify-content: left;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier;
+    display: flex;
+ }
+
+
+.navbar {
+    padding: 2rem;
+    background-color: #6ae772;
+    font-size: 15px;
+  }
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;  
+  }
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+footer {
+    background-color: #edeaea;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    display: grid; /* se separa en columnas*/
+    grid-template-columns: 1fr 1fr; /* ocupará 2 columnas */
+    align-items: center;
+    border-top: 1px solid #d4d3d3;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-content: left;
+}
+
+footer .footer-right{
+    justify-content: right;
+}
+
+footer ul li a{
+    margin: 10 px;
+    padding: 20px;
+    color: rgb(163, 159, 159); 
+}
